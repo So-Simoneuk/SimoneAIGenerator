@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js"></script>
     <link rel="stylesheet" href="src/index.css"/>
     <title>Simone's AI Generator</title>
 </head>
@@ -12,7 +13,7 @@
 <h1>AI Recipe Generator</h1>
  </header>
  <main>
-    <form>
+    <form id="recipe-generator">
         <input type="text" placeholder="Enter the recipe you would like generated" 
         autofocus 
         required
@@ -22,10 +23,9 @@
         class="button"/>
     </form>
     <br>
-    <div class="recipe">
-        Response here 
-        <br />
-        Recipe output
+    <div class="recipe" id="recipe">
+    
+       
     </div>
  </main>
 <br>
